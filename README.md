@@ -1,7 +1,7 @@
 # codesoft
 internship tasks
 C++ TASKS
-                        {  TASK (1) NUMBER GUSSING GAME  }
+{  TASK (1) NUMBER GUSSING GAME  }
 #include <iostream>
 #include <cstdlib>  // For rand() and srand()
 #include <ctime>    // For time()
@@ -46,8 +46,8 @@ int main() {
 
 
 
-                                            {  TASK(2) SIMPLE CALCULATOR  }
-   #include <iostream>
+{  TASK(2) SIMPLE CALCULATOR  }
+#include <iostream>
   
 using namespace std;
 
@@ -86,7 +86,7 @@ int main() {
 
     return 0;
 }
-                                                          {   task(3)  TIC-TAC-TOE GAME  }
+{   task(3)  TIC-TAC-TOE GAME  }
 #include <iostream>
 #include <vector>
 
@@ -183,7 +183,7 @@ int main() {
     return 0;
 }
 
-                                           {   TASK(4)  TO DO LIST   }
+{   TASK(4)  TO DO LIST   }
 #include <iostream>
 #include <vector>
 #include <string>
