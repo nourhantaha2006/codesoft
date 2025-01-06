@@ -1,3 +1,5 @@
+C++
+TASK(1)
 #include <iostream>
 #include <cstdlib>  // For rand() and srand()
 #include <ctime>    // For time()
@@ -42,7 +44,7 @@ int main() {
 
 
 
-
+TASK(2)
 #include <iostream>
   
 using namespace std;
@@ -82,7 +84,7 @@ int main() {
 
     return 0;
 }
-
+TASK(3)
 #include <iostream>
 #include <vector>
 
@@ -179,7 +181,7 @@ int main() {
     return 0;
 }
 
-
+TASK(4)
 #include <iostream>
 #include <vector>
 #include <string>
