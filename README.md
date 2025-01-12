@@ -275,11 +275,100 @@ int main() {
             cout << "Exiting the program. Goodbye!\n";
             break;
         default:
-            cout << "Invalid choice! Please try again.\n";
+            cout << "Invalid choice! Please try again.\n"
         }
     } while (choice != 5);
 
     return 0;
 }        
                          
+                               PYTHON TASKS
+
+
+                               task(2)
+
+print("Enter the first number, please")
+num1 = float(input())  # Convert to float to handle decimal numbers
+print("Enter the second number, please")
+num2 = float(input())  # Convert to float to handle decimal numbers
+print("Enter the operator (+, -, /, *):")
+op = input()
+
+if op == "+":
+    print(num1 + num2)
+elif op == "-":
+    print(num1 - num2)
+elif op == "/":
+    if num2 == 0:
+        print("Invalid: Division by zero")
+    else:
+        print(num1 / num2)
+elif op == "*":
+    print(num1 * num2)
+else:
+    print("Invalid operator")
+    
+                           task(3)
+import random
+import string
+
+print("Enter the length of the password you want:")
+length = int(input())  # Convert input to an integer
+
+# Create a string containing uppercase letters, lowercase letters, digits, and special characters
+characters = string.ascii_letters + string.digits + string.punctuation
+
+# Generate a random password of the specified length
+strongpassword = ''.join(random.choice(characters) for i in range(length))
+
+print("Your strong password is:")
+print(strongpassword)
+
+                         task(4)
+import random
+
+def play_game():
+    print("We are in a game\nPlease, enter your choice from (rock, paper, scissors):")
+    choices = ["rock", "paper", "scissors"]
+    choice = input().lower()  # Ensure user input is case-insensitive
+
+    # Randomly choose for the computer
+    computerchoice = random.choice(choices)
+
+    # Determine the result
+    if computerchoice == "rock" and choice == "scissors":
+        result = "You are the loser!"
+    elif computerchoice == "scissors" and choice == "paper":
+        result = "You are the loser!"
+    elif computerchoice == "paper" and choice == "rock":
+        result = "You are the loser!"
+    elif computerchoice == choice:
+        result = "It's a tie!"
+    else:
+        result = "You are the winner!"
+
+    # Print the result
+    print(f"Your choice: {choice}")
+    print(f"Computer's choice: {computerchoice}")
+    print(result)
+    print("With my best wishes!")
+
+# Run the game in a loop
+while True:
+    play_game()  # Play the game
+
+    print("Do you want to play again? (yes/no)")
+    answer = input().lower()
+
+    if answer != "yes":
+        print("Thanks for playing!")
+        break  # Exit the loop if the user doesn't want to play again
+
+
+        
+
+
                                                            
+                            
+                            
+                            
